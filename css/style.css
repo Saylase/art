@@ -1,0 +1,597 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+h2 {
+    position: absolute;
+    top: 26px;
+    padding: 28px;
+    background-color: #775144;
+    margin: 126px;
+    width: 94.6%;
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;
+    text-align: justify;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    color: #F4DBD8;
+    padding: 15px;
+    background-size: cover;
+    background-position: center;
+    background-color: #775144;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    margin: 0;
+    margin-top: -500px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+h5 {
+    position: relative;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #be8e85;
+    border-radius: 15px;
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.information {
+    display: block;
+    position: absolute;
+    background-color: #BEA8A7;
+    border-radius: 15px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    color: #fff;
+    margin: 10px;
+    height: auto;
+    padding: 20px;
+    width: 92%;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+}
+
+
+#art {
+    top: 330px;
+}
+
+#types {
+    top: 720px;
+}
+
+#artists {
+    top: 910px;
+}
+
+#paintings {
+    top: 320px;
+}
+
+#techniques {
+    top: 680px;
+}
+
+#styles {
+    top: 1470px;
+}
+
+#sculpture {
+    top: 330px;
+}
+
+#materials {
+    top: 680px;
+}
+
+#varieties {
+    top: 1150px;
+}
+
+#architecture {
+    top: 330px;
+}
+
+#typesofarchitecture {
+    top: 690px;
+}
+
+#literature {
+    top: 330px;
+}
+
+#typesandgenres {
+    top: 690px;
+}
+
+#music {
+    top: 330px;
+}
+
+#musicgenres {
+    top: 690px;
+}
+
+#instruments {
+    top: 1520px;
+}
+
+#theater {
+    top: 330px;
+}
+
+#typesoftheater {
+    top: 670px;
+}
+
+#performances {
+    top: 1130px;
+}
+
+#movie {
+    top: 330px;
+}
+
+#genres {
+    top: 690px;
+}
+
+
+
+
+
+
+.block-img {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    flex: 1;
+}
+
+.block-img img {
+    width: auto;
+    max-width: 80px;
+    height: auto;
+    max-height: 90px;
+    border: 5px solid #F4DBD8;
+    border-radius: 10px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.block-img a {
+    flex: 1;
+    text-align: justify;
+}
+
+.text {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background-color: #C09891;
+    padding: 3px;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+.more {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #F4DBD8;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+.more:hover {
+    background-color: #d4d4d4;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text {
+    position: absolute;
+    display: inline-block;
+    font-size: 3rem;
+    color: #F4DBD8;
+    padding: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 99%;
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: -430px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.hero-text-1 {
+    background-image: url('https://sparkmedia.com.ua/wp-content/uploads/2019/08/fp9.jpg');
+}
+
+.hero-text-2 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/9c/Heywood_Hardy_Holiday_time.jpg');
+}
+
+.hero-text-3 {
+    background-image: url('https://www.depo.ua/uploads/13428/conversions/c7b50155c06601b0631663ecf2b85175-wide-big.jpg');
+}
+
+.hero-text-4 {
+    background-image: url('https://zolfagharstone.com/Portals/0/image/Article/Sculapture-With-Marble-002.jpg?ver=2020-07-05-141939-927');
+}
+
+.hero-text-5 {
+    background-image: url('https://mindscope.biz.ua/wp-content/uploads/2023/11/1371551423_0704-1000x800-1.jpeg');
+}
+
+.hero-text-6 {
+    background-image: url('https://i.ytimg.com/vi/SjLXBMrfRLg/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC9-dVZsEeFZwCgV2TKyiKisGHrkw');
+}
+
+.hero-text-7 {
+    background-image: url('https://hotel-edem.lviv.ua/wp-content/uploads/2019/01/opera-lviv.jpg');
+}
+
+.hero-text-8 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD4LkT0mrIoUAIs6qz14tlYtTJwU_c-NURxnJbzx9M_CeL18bmkzbgr2GpTxLEhYypfVI&usqp=CAU');
+}
+
+.text-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    width: 100%;
+    margin: -2px auto;
+    font-style: italic;
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    flex: 1 1 200px;
+}
+
+.toggle-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.hidden-text {
+    display: none;
+    padding: 5px;
+    border: 1px solid #775144;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+.links-container {
+    position: absolute;
+    background-color: #775144;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    top: 260px;
+    flex-wrap: nowrap;
+    width: 96.7%;
+    margin: 0;
+    padding: 15px;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.15);
+}
+
+.oval-link {
+    display: inline-block;
+    padding: 10px;
+    margin-right: -5px;
+    margin-left: 15px;
+    margin-top: -10px;
+    border-radius: 30px;
+    background-color: #C09891;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+.oval-link:hover {
+    background-color: #BEA8A7;
+    transform: scale(1.1);
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+
+.gallery-1 {
+    display: block;
+    position: absolute;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    top: 100px;
+    width: 1200px;
+
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: left;
+    margin: 20px;
+    padding: 0;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.card-body {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.card-image {
+    width: auto;
+    max-width: 250px;
+    height: auto;
+    max-height: 150px;
+    display: block;
+    object-fit: cover;
+}
+
+.card-content {
+    flex: 1;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.hidden-text {
+    display: none;
+    font-size: 10px;
+    color: #333;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.toggle-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.toggle-button .arrow {
+    transition: transform 0.3s ease;
+}
+
+.toggle-button.expanded .arrow {
+    transform: rotate(90deg);
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: italic;
+    font-size: 15px;
+    color: #C09891;
+}
+
+#section-1 {
+    display: flex;
+}
+
+.burger-menu_button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 40;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #2A0800;
+    transition: 0.4s;
+
+}
+
+.burger-menu_button:hover .burger-menu_lines {
+    filter: brightness(0.7);
+}
+
+.burger-menu_lines,
+.burger-menu_lines::after,
+.burger-menu_lines::before {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+}
+
+.burger-menu_lines {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.burger-menu_lines::before {
+    content: '';
+    top: -10px;
+}
+
+.burger-menu_lines::after {
+    content: '';
+    top: 10px;
+}
+
+.burger-menu_active .burger-menu_button,
+.burger-menu_active .burger-menu_lines {
+    background-color: transparent;
+}
+
+.burger-menu_active .burger-menu_lines::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.burger-menu_active .burger-menu_lines::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.burger-menu_nav {
+    padding-top: 80px;
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    background-color: #2A0800;
+    overflow-y: auto;
+    max-height: 100%;
+    left: -100%;
+    transition: 0.5s;
+}
+
+.burger-menu_active .burger-menu_nav {
+    left: 0;
+}
+
+.burger-menu_link {
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.menu-section .expandable {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.submenu {
+    display: none;
+    padding-left: 15px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.submenu a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #775144;
+    border-radius: 5px;
+    transition: background-color 0.3 ease;
+}
+
+.submenu a:hover {
+    background-color: #BEA8A7;
+}
+
+.expandable.open .arrow {
+    transform: rotate(-90deg);
+}
+
+.expandable.open+.submenu {
+    display: flex;
+}
+
+.burger-menu_link:hover {
+    filter: brightness(0.7);
+}
+
+.burger-menu_overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+.burger-menu_active .burger-menu_overlay {
+    display: block;
+}
+
+.burger-menu_active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 1000;
+}
