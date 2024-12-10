@@ -187,7 +187,7 @@ h5 {
     text-decoration: none;
     color: white;
     background-color: #C09891;
-    padding: 4px;
+    padding: 3px;
     margin-top: 15px;
     border-radius: 20px;
     font-size: 18px;
@@ -221,7 +221,7 @@ h5 {
     display: inline-block;
     font-size: 3rem;
     color: #F4DBD8;
-    padding: 40px;
+    padding: 50px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-size: cover;
